@@ -66,5 +66,3 @@ const LandingPage: React.FC = () => {
 };
 
 export default LandingPage;
-// <div className=" blur-sm opacity-90  rotate-260 absolute w-[50%] h-full  bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 -z-50 right-0 "></div>;
-//  <img src="./home.webp" className="h-[100%] rounded-md object-cover" alt=""
