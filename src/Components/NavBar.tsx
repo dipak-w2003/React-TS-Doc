@@ -19,9 +19,8 @@ const NavBar = () => {
         <NavLink to="/hooks">
           <li className="hover:text-white">Hooks</li>
         </NavLink>
-
         <NavLink to="/state-management">
-          <li className="hover:text-white">State Management</li>
+          <li className="hover:text-white">RRTK-Redux</li>
         </NavLink>
         <NavLink to="/reference">
           <li className="hover:text-white">Reference</li>

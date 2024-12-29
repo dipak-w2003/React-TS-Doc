@@ -1,11 +1,17 @@
 import React from "react";
+// ? code Wrapping
 import CodeWrapping from "../../utils/1-code-wrapper/CodeWrapping";
-import { codeStr } from "../4-ts/TS_files";
-import PropPassing from "../0-basics/Props_0";
+// ? code - 1
+import Counter from "./1-useState/Counter";
+import { CounterCode } from "./1-useState/counter";
+// ? code - 2
+import FetchData from "./2-useEffect/FetchData";
+import { IFetchCode } from "./2-useEffect/fetchData";
 const Hook: React.FC = () => {
   return (
-    <main className="bg-black text-white">
-      <CodeWrapping code={codeStr} tsxUI={<PropPassing />} />
+    <main className="bg-black *:text-white after-nav ">
+      <CodeWrapping code={CounterCode} tsxUI={<Counter />} />
+      <CodeWrapping code={IFetchCode} tsxUI={<FetchData />} />
     </main>
   );
 };

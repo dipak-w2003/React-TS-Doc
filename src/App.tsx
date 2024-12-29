@@ -16,6 +16,14 @@ const App: React.FC = () => {
         />
         <Route path="/reference" element={<div>Reference Page</div>} />
         <Route path="/undefined" element={<div>Undefined Page</div>} />
+        <Route
+          path="*"
+          element={
+            <main className="after-nav flex justify-center items-center bg-black text-white">
+              <h2 className="text-4xl">Page Not Found</h2>
+            </main>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );
