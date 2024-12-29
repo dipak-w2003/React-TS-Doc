@@ -44,7 +44,7 @@ src/
   };
 
   return (
-    <main className="bg-[#212121]  h-[100vh] flex  justify-around">
+    <main className="bg-[#212121]  max-h-[100vh] h-[100vh] flex  justify-around">
       <section className="firstOption   text-white w-[50%] mt-[2vh] justify-center flex flex-col gap-6">
         <h1 className="text-lg">
           1. Terminal Commands to Set Up React with TypeScript

@@ -2,7 +2,7 @@ import React from "react";
 const LandingPage: React.FC = () => {
   return (
     <main
-      className={`after-nav w-[120vw]   flex items-center justify-between overflow-hidden  *:h-full   relative bg-[url(./home.webp)] bg-no-repeat bg-cover  `}
+      className={`after-nav w-[120vw] h-[100vh]  flex items-center justify-between overflow-hidden  *:h-full   relative bg-[url(./home.webp)] bg-no-repeat bg-cover  `}
     >
       <section className="w-[50%]">
         <div className="wrapper h-full w-full relative">

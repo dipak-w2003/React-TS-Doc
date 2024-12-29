@@ -14,17 +14,18 @@ const CodeWrapping: React.FC<codeArr> = ({
   const [index, setIndex] = useState<number>(0);
 
   return (
-    <section className="flex justify-around">
-      {tsxUI}
-      <div className="wrap-all bg-red-400">
-        <div className="wrapper flex gap-5">
+    <section className="flex justify-around relative h-[100vh] items-center  overflow-hidden bg-[#2F2F2F]">
+      <div className="UI w-[50%]  h-[50vh] bg-black p-6 rounded">{tsxUI}</div>
+
+      <div className="wrap-all bg-gray-900 h-[80%] flex flex-col  w-[40%] rounded-md overflow-hidden ">
+        <div className="wrapper flex gap-5 overflow-x-scroll ">
           {code.map((e, idx) => (
             <div
               className={`p-2 cursor-pointer  
-              border-2 border-transparent
+              border-2 border-transparent text-white font-bold
               ${idx === index && "border-b-gray-200"}
               `}
-              style={{ color: idx === index ? "green" : "" }}
+              style={{ color: idx === index ? "gray" : "" }}
               key={e.name}
               onClick={() => setIndex(idx)}
             >
