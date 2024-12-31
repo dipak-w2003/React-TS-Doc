@@ -5,7 +5,7 @@ const Counter: React.FC = () => {
 
   return (
     <div>
-      <h1 className="text-2xl">1. UseState Hook</h1>
+      <h1 className="text-2xl">UseState </h1>
       <div className="wrap bg-cyan-900 p-6 mt-10 rounded-md">
         <h1 className="text-2xl">Count: {count}</h1>
         <button

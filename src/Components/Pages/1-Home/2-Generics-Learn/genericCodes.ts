@@ -22,9 +22,7 @@ const AppGeneric: React.FC = () => {
     </main>
   );
 };
-export default AppGeneric;
-
-`
+export default AppGeneric;`
 }
 
 const code2: ICodes = {
@@ -66,6 +64,8 @@ const Box: React.FC<users> = ({
   );
 };
 export default Box;
+
+
 `
 }
 

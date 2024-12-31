@@ -53,9 +53,10 @@ const FetchData: React.FC = () => {
       </ol>
     </main>
   );
-};
-
+}
 export default FetchData;
+
+
 `
 }
 

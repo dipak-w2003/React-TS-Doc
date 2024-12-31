@@ -12,3 +12,16 @@ a[class="active"] {
 .after-nav {
   height: calc(100vh - var(--navH--));
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* CONTEXT THEME CSS */
+.light {
+  background: white;
+  color: black;
+}
+.dark {
+  background: black;
+  color: white;
+}

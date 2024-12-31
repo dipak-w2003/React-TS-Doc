@@ -13,9 +13,9 @@ const BasicExample: React.FC<codeSyntax> = ({
   language = "typescript",
 }: codeSyntax) => {
   return (
-    <main className="overflow-scroll bg-red-600  max-h-full h-[100%]  text-[12px]">
+    <main className="max-h-full h-[100%]  text-[12px]">
       <SyntaxHighlighter
-        className="h-full"
+        className="h-full w-full overflow-scroll"
         language={language}
         showLineNumbers
         style={codepenEmbed}

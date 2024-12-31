@@ -1,13 +1,13 @@
 type ICodes = {
-    name: string,
-    code: string,
+  name: string,
+  code: string,
 }
 
 
 
 const code1: ICodes = {
-    name: "App.tsx",
-    code: `import Box from "./Box";
+  name: "App.tsx",
+  code: `import Box from "./Box";
 const App = () => {
   const handleClick = (name: string) => {
     alert("Hello," + " " + name);
@@ -24,13 +24,15 @@ const App = () => {
   );
 };
 export default App;
+
+
 `
 }
 
 
 const code2: ICodes = {
-    name: "Box.tsx",
-    code: `// ? define type/interface
+  name: "Box.tsx",
+  code: `// ? define type/interface
 type IPROPS = {
   name: string;
   password: any;
@@ -55,9 +57,8 @@ const Box = ({ name, password, click }: IPROPS) => {
       </button>
     </main>
   );
-};
-export default Box;
-`
+}
+export default Box;`
 }
 
 

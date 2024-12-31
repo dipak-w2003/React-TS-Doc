@@ -30,9 +30,9 @@ const FetchData: React.FC = () => {
 
   if (loading) return <p>Loading...</p>;
   return (
-    <main className="h-full overflow-hidden">
+    <main className="h-[90%] overflow-hidden">
       <h2 className="text-3xl">useEffect</h2>
-      <ol className="bg-cyan-900 h-full rounded-md  overflow-scroll list-decimal p-2 text-[12px] *:text-justify *:tracking-tighter">
+      <ol className="bg-cyan-900 h-full mt-5 rounded-md list-decimal overflow-y-scroll overflow-auto  p-2 text-[12px] *:text-justify *:tracking-tighter">
         {data &&
           data.map((e) => {
             return (
