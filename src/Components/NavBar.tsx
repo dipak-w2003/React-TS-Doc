@@ -31,7 +31,7 @@ const NavBar = () => {
             <li className="hover:text-white">Hooks</li>
           </NavLink>
           <NavLink to="/state-management">
-            <li className="hover:text-white">RRTK-Redux</li>
+            <li className="hover:text-white">State Management</li>
           </NavLink>
           <NavLink to="/reference">
             <li className="hover:text-white">Reference</li>
