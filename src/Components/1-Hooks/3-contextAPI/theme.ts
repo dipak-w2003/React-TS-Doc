@@ -1,14 +1,13 @@
-import Box from "./Box"
 
 type ICodes = {
-    name: string,
-    code: string
+  name: string,
+  code: string
 }
 
 
 const code1: ICodes = {
-    name: "ThemeContext.tsx",
-    code: `// ? STEP 1: Create Context
+  name: "ThemeContext.tsx",
+  code: `// ? STEP 1: Create Context
 import { createContext } from "react";
 type ThemeType = "light" | "dark";
 type ThemeContextType = {
@@ -25,8 +24,8 @@ export const ThemeContext = createContext<ThemeContextType>({
 }
 
 const code2: ICodes = {
-    name: "ThemeProvider.tsx",
-    code: `// ? STEP 2: Create Context State Management -> toggler
+  name: "ThemeProvider.tsx",
+  code: `// ? STEP 2: Create Context State Management -> toggler
 import { ReactNode, useState } from "react";
 import { ThemeContext } from "./ThemeContext";
 type ThemeType = "light" | "dark";
@@ -50,8 +49,8 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
 
 
 const code3: ICodes = {
-    name: "ThemeApp.tsx",
-    code: `
+  name: "ThemeApp.tsx",
+  code: `
     // ? STEP 3: Wrap children by ThemeProvider
     import { ThemeProvider } from "./ThemeProvider";
 import Box from "./Box";
@@ -71,8 +70,8 @@ export default ThemeApp;
 }
 
 const code4: ICodes = {
-    name: "Box.tsx",
-    code: ` // ? STEP 4: Access the ThemeContext States using 'useContext'
+  name: "Box.tsx",
+  code: ` // ? STEP 4: Access the ThemeContext States using 'useContext'
 
 import { useContext } from "react";
 import { ThemeContext } from "./ThemeContext";

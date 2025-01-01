@@ -1,6 +1,5 @@
 import React from "react";
 import { ICodesBash } from "./ts-codes/getStartedBashCmd";
-import { synthwave84 } from "react-syntax-highlighter/dist/esm/styles/prism";
 import SyntaxHighlighter from "react-syntax-highlighter/dist/esm/default-highlight";
 import { codepenEmbed } from "react-syntax-highlighter/dist/esm/styles/hljs";
 type IBashCmd = {
