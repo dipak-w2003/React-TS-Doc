@@ -2,7 +2,7 @@ import React from "react";
 const LandingPage: React.FC = () => {
   return (
     <main
-      className={`after-nav w-[120vw] h-[100vh]  flex items-center justify-between overflow-hidden  *:h-full   relative bg-[url(./home.webp)] bg-no-repeat bg-cover  `}
+      className={`after-nav w-[120vw] h-[100vh]  flex items-center justify-between overflow-hidden  *:h-full   relative bg-[url("https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/5992673/cover_image/retina_1708x683/1005_Design-Patterns-in-React_Cover-44247834a5b31e8d08e5bbbdac4a6750.png")] bg-no-repeat bg-cover  `}
     >
       <section className="w-[50%]">
         <div className="wrapper h-full w-full relative">

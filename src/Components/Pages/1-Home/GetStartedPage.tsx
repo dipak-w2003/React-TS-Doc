@@ -53,6 +53,7 @@ src/
             <TerminalBash
               title={e.title}
               cmd={e.cmd}
+              key={e.cmd}
               optionTitle={e.optionTitle}
               id={e.id}
             />
