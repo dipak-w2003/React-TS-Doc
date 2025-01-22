@@ -13,7 +13,7 @@ const LandingPage: React.FC = () => {
         </div>
         {/* ? section 2 */}
       </section>
-      <section className=" articles w-[50%] text-white flex flex-col items-center justify-center font-serif relative z-10 ">
+      {/* <section className=" articles w-[50%] text-white flex flex-col items-center justify-center font-serif relative z-10 ">
         <article className="p-10  ">
           <h2 className="text-2xl underline">What is React?</h2>
           <p>
@@ -60,7 +60,7 @@ const LandingPage: React.FC = () => {
           </ol>
         </article>
       </section>
-      <div className=" blur-md opacity-90  absolute w-[50%] h-full  bg-gradient-to-tl from-cyan-900 via-purple-900 to-pink-900  right-0 "></div>
+      <div className=" blur-md opacity-90  absolute w-[50%] h-full  bg-gradient-to-tl from-cyan-900 via-purple-900 to-pink-900  right-0 "></div> */}
     </main>
   );
 };
